@@ -67,12 +67,9 @@ try:
         print(f"Money inserted: AED {money_inserted:.2f}")
         print(f"Total money inserted: AED {total_money_inserted:.2f}")
 
-        # Rest of your code after money insertion
-        # ...
-
         while True:
             try:
-                # Display the table again
+                # Displays the table again
                 display_table()
 
                 # Ask for the code for the item
@@ -108,7 +105,7 @@ try:
                 else:
                     print("Invalid code. Please enter a valid code.")
 
-                # Display the table after the transaction
+                # Displays the table after the transaction
                 display_table()
 
                 # Dispense change
